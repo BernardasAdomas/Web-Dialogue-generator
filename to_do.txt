@@ -1,0 +1,53 @@
+/*
+### MVP ###
+
+Goal - Make any number of scenes compile into working json
+
+Steps:
+    1: convert 1 dialogue w/o any buttons into code +
+    2: convert 1 dialogue with up to 6 buttons into code +
+### cool to have ###
+
+dragable scenes
+saving
+More than one person working at once
+
+### doing ###
+
+---
+
+### cosmetic ###
+choose font
+pretty buttons
+allign result
+
+### functional ###
+
+make ability to import
+make clone button
+
+### done ###
+export dialogue files
+make button name limit to 16 characters
+make event listener adding dynamic
+normalize the first one
+reset dialogue button
+remove dialogue button
+figure out how to make global color
+make add new dialogue button add dialogue bellow the one you pressed it +
+if no buttons no buttons + -
+add button name to conversion +
+add limit to 6 commands +
+make nice indents for the the result +
+make new created dialogue field +
+create clean dialogue window on new make +
+make add command button +
+make a "new" button that expands that list by one by making a copy of the last field +
+make the result command store all of them and paste it into the result file +
+make boring flat colors +
+make UI +-
+figure out location for add new dialogue button +-
+
+
+
+*/

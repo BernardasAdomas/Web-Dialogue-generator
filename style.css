@@ -1,0 +1,127 @@
+
+:root {
+    --background-color: #1b1b1b;
+    --secondary-color: #4e4e4e;
+    --third-color: #999;
+}
+
+* {
+    font-family: cursive;
+    font-size: medium;
+    color: white;
+}
+header,
+footer {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.comContainer>textarea {
+    margin: 10px 0 10px 0;
+}
+
+ol{
+    padding-inline-start: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+textarea {
+    background-color: var(--secondary-color);
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    resize: none;
+}
+
+.commandName {
+    margin-bottom: 10px;
+}
+
+.input,
+.output {
+    background-color: var(--background-color);
+    padding: 10px;
+    width: 600px;
+    border: solid 2px var(--secondary-color);
+    padding: 20px 30px 40px 30px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.outputContainer{
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* buttons */
+
+.oButtons {
+    display: flex;
+}
+
+button {
+    background-color: var(--third-color);
+    border-radius: 5px;
+    display: inline-flex;
+    height: min-content;
+}
+
+button:hover {
+    cursor: pointer;
+}
+.addCommand {
+    text-align: center;
+    float: right;
+    width: auto;
+    right: 50px;
+    align-items: flex-end;
+}
+
+.newButton {
+    display: block;
+    margin: 10px auto 30px auto;
+    width: 90%;
+    justify-content: center;
+    padding: 4px;
+}
+
+/* animation */
+
+@keyframes append-animate {
+    from {
+        transform: scaleY(0);
+        ;
+        opacity: 0;
+    }
+
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+.newLi {
+    transform-origin: 50% 0;
+    animation: append-animate .2s linear;
+}

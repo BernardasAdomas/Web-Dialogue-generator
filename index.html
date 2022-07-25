@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+</header>
+
+<body>
+    <h1>Dialogų kūrėjas</h1>
+    <ol class="dialogues" id="dialogues">
+        <li id="inputContainer">
+            <div class="input" id="input">
+                <button id="reset">reset</button>
+
+                    <h3>Scene tag</h3>
+                    <textarea name="sceneTag" id="sceneTag" cols="50" rows="1"
+                        placeholder="location_name_action"></textarea>
+                    <h3>Name</h3>
+                    <textarea name="name" id="name" cols="50" rows="1" placeholder="Name of the NPC"></textarea>
+                    <h3>text</h3>
+                    <textarea name="text" id="text" cols="50" rows="6" placeholder="NPC text"></textarea>
+                    <h3>Buttons</h3>
+                    <div class="comContainer">
+                    </div>
+                    <button class="addCommand">Add command</button>
+            </div>
+            <button class="newButton">+</button>
+        </li>
+    </ol>
+    <div class="outputContainer">
+        <div class="oButtons">
+            <button class="submit">Convert</button>
+            <button class="export">Export</button>
+        </div>
+        <div class="output" id="output">
+            <h3>Result</h3>
+            <textarea disabled name="result" id="result" cols="50" rows="10"></textarea>
+        </div>
+    </div>
+    <script src="utility.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+<footer>
+</footer>
+
+</html>
